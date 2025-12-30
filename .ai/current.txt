@@ -1,5 +1,5 @@
-Given logged into app
+Given application url is open
 
-When navigate to about us
+When user clicks on ‘Contact’ link
 
-Then show contact us page
+Then user is taken to ‘New message’ modal

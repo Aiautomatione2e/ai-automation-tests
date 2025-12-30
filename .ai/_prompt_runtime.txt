@@ -1,0 +1,17 @@
+You are a QA automation engineer.
+
+Using the acceptance criteria below, generate Playwright TypeScript tests.
+
+Rules:
+- Must use Page Object Model
+- No locators in spec files
+- Page classes must go into /pages
+- Tests go into /tests/regression
+- Follow existing framework patterns
+
+Acceptance Criteria:
+Given application url is open
+
+When user clicks on ‘Contact’ link
+
+Then user is taken to ‘New message’ modal

@@ -1,0 +1,12 @@
+{
+  "tools": {
+    "browser": {
+      "type": "playwright",
+      "url": "${APP_URL}"
+    }
+  },
+  "context": [
+    ".ai/current.txt",
+    ".ai/pom-rules.txt"
+  ]
+}

@@ -1,0 +1,7 @@
+You must generate Playwright TypeScript tests using Page Object Model.
+
+Rules:
+- No locators in spec files
+- All selectors must be in /pages classes
+- Spec files should only call page object methods
+- Use Playwright test syntax
